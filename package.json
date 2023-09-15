@@ -1,0 +1,22 @@
+{
+  "name": "zip-extract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "terser-webpack-plugin": "^5.3.9",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@lazyduke/ajax-proxy": "^1.0.2",
+    "jszip": "^3.10.1",
+    "jszip-utils": "^0.1.0"
+  }
+}
