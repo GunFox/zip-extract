@@ -1,6 +1,6 @@
 {
   "name": "zip-extract",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "",
   "main": "dist/zip-extract.min.js",
   "scripts": {
@@ -20,5 +20,8 @@
     "html-webpack-plugin": "^5.5.3",
     "jszip": "^3.10.1",
     "jszip-utils": "^0.1.0"
+  },
+  "repository": {
+    "url": "https://github.com/GunFox/zip-extract.git"
   }
 }
