@@ -1,8 +1,8 @@
 {
   "name": "zip-extract",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "",
-  "main": "main.js",
+  "main": "dist/zip-extract.min.js",
   "scripts": {
     "start": "webpack serve --open",
     "build": "webpack --config webpack.config.js"

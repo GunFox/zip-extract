@@ -4,9 +4,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: {
-        // 'zip-extract': './lib/zip-extract.js',
-        // 'zip-extract.min': './lib/zip-extract.js',
-        'test': './test/test.js'
+        'zip-extract': './lib/zip-extract.js',
+        'zip-extract.min': './lib/zip-extract.js',
+        // 'test': './test/test.js'
     },
     mode: 'development',
     plugins: [
