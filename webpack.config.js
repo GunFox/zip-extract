@@ -1,11 +1,25 @@
 const TerserPlugin = require('terser-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 
 module.exports = {
     entry: {
-        'zip-extract': './lib/zip-extract.js',
-        'zip-extract.min': './lib/zip-extract.js',
+        // 'zip-extract': './lib/zip-extract.js',
+        // 'zip-extract.min': './lib/zip-extract.js',
+        'test': './test/test.js'
     },
-    mode: 'production',
+    mode: 'development',
+    plugins: [
+        new HtmlWebpackPlugin({
+            title: 'Development',
+        }),
+    ],
+    devServer: {
+        static: './dist',
+    },
+    optimization: {
+        runtimeChunk: 'single',
+    },
     output: {
         filename: '[name].js',
         library: 'zip-extract',
